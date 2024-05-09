@@ -1,0 +1,91 @@
+<html>
+<head><title>form</title><style>   
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: pink;  
+}  
+button {   
+       background-color: #4CAF50;   
+       width: 100%;  
+        color: orange;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+ form {   
+        border: 3px solid #f1f1f1;   
+    }   
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container {   
+        padding: 25px;   
+        background-color: blue;  
+    }   
+</style>
+
+
+</head>
+<h1>KYU STUDENT FORM<h1>
+<body>
+<form>  <fieldset>
+<legend>user personal information</legend>
+<label>enter your full name:</label><br>
+<input type="text"placeholder="full names" name="name"><br>
+<label>enter your emai:</label><br>
+<input type="email" placeholder="email" name="email"><br>
+<label>phone</label>
+<input type="text" name="country code" value="+254" size="3" >
+<input type="text" name="phone" >
+<label>course:</label>
+<select>
+ <option>COMPUTER SCIENCE</option>
+ <option>INFORMATION TECHNOLOGY</option>
+ <option>BBIT</option>
+<option>CLINICAL MEDS</option>
+<option>OTHERS</OPTION>
+
+</select>
+<br><label>enter your gender</label><br>
+<input type="radio" id="gender" name="gender" value="male"/>male<br>
+<input type="radio" id="gender" name="gender" value="female"/>female<br>
+<br><label>enter your address:</label><br>
+<textarea></textarea><br> 
+select country:<select>
+<option>india</option>
+<option>egypt</option>
+<option>tanzania</option>
+<option>uganda</option>
+<option>kenya</option>
+<option>other</option>
+</select><label><br>
+enter your password:</label><br>
+<input type="password" id="password"  name="pass" required><br>
+ <label>confirm your password:</label><br>
+<input type="password" id="password"  name="pass"required><br>
+<button type"submit" value="submit">submit
+<input type="checkbox" checked="checked"/>remember me<button type="button" class="cancelblt">cancel
+
+forgot <a href="#" > password? </a><br>
+
+<br><input type="submit" value="sign-up"/><br>
+</fieldset>
+</form>
+</body>
+</html>
